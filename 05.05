@@ -1,0 +1,45 @@
+#1
+from random import randint
+
+x = randint(0, 100)
+count = 0
+for i in range(x):
+    n = int(input('Введите число: '))
+    if n != x:
+        count += 1
+        print('Проигрыш')
+    else:
+        count += 1
+        print('Победа','число попыток:', count)
+
+#2
+from random import randint
+
+x = randint(0, 100)
+count = 0
+for i in range(5):
+    n = int(input('Введите число: '))
+    if n != x:
+        count += 1
+        print('Проигрыш')
+    else:
+        count += 1
+        print('Победа','число попыток:', count)
+#3
+from random import randint
+
+x = randint(0, 100)
+count = 0
+for i in range(randint(1, 100)):
+    n = int(input('Введите число: '))
+    if n != x:
+        count += 1
+        print('Проигрыш')
+    else:
+        count += 1
+        print('Победа','число попыток:', count)
+
+
+
+
+
