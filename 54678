@@ -1,0 +1,20 @@
+def nhax():
+    a,b = int(input()), int(input())
+    print('es' if a > b else 'no')
+    return nhax()
+
+def olo():
+    a = int(input())
+    b = int(input())
+    return a, b
+def oloo(a, b):
+    while a != b:
+        if a < b:
+            a -= 1
+        else:
+            a += 1
+    if 'победа' != 'не победа':
+        print('hahahahaaaaaaaaaaahahhahahahahahahahahha')
+        print('1')
+        print('2')
+        print('3')
