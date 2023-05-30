@@ -1,0 +1,10 @@
+а = input('enter gg: ')
+b = input('enter number: ')
+c = input('enter text: ')
+def func1(num):    
+    n = num * 5
+    print(n)
+
+func1(a)
+func1(b)
+func1(c)
