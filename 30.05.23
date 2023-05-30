@@ -1,0 +1,18 @@
+def zagadka(zag, otv):
+    verno_or_not = "гений"
+    print(zag)
+    otv_polz = input()
+    if otv_polz != otv:
+        verno_or_not = "Неверно!"
+    return verno_or_not
+    
+zagadka1 = "мячик?"
+zagadka2 = " Ответ:"
+zagadka3 = "Чё по кайфу? Ответ:"
+otvet1 = "арбуз"
+otvet2 = "Юра"
+otvet3 = "помидоры"
+
+print(zagadka(zagadka1, otvet1))
+print(zagadka(zagadka2, otvet2))
+print(zagadka(zagadka3, otvet3))
