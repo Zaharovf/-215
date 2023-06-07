@@ -1,0 +1,13 @@
+def xor_clipher(string, key):
+    result = ' '
+    for i in range(len(string)):
+        code = ord(string[i]) ^ ord(key[i % len(key)])
+        result += chr(code)
+    return result
+    
+def xor_ucipher(string, key):
+    result = ' '
+    for i in range(len(string)):
+        code = ord(string[i]) ^ ord(key[i % len(key)])
+        result += chr(code)
+    return result
